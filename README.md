@@ -26,6 +26,42 @@ The extension requires minimal permissions:
 
 Feel free to submit issues and enhancement requests!
 
+## Privacy Policy
+Effective Date: April 25, 2025
+Extension Name: Zap-It
+
+Zap-It is committed to protecting your privacy. This extension is designed with a privacy-first approach and does not collect, store, or share any personal information or user data.
+
+What Data Zap-It Collects
+🛑 None.
+Zap-It does not collect or transmit any of the following:
+
+Personally identifiable information (e.g., name, email, address)
+
+Financial, health, or authentication data
+
+Web history or user activity
+
+Location data or device information
+
+Content from web pages, chats, or forms
+
+How Zap-It Works
+Zap-It adds a user input bar to the bottom of each webpage. All functionality occurs locally in your browser. The extension does not connect to any external servers, APIs, or databases on its own.
+
+Data Usage & Sharing
+Zap-It does not sell or share any user data with third parties.
+
+Zap-It does not track your behavior or usage across sites.
+
+Zap-It does not use cookies or analytics tools.
+
+Changes to This Policy
+This privacy policy may be updated if the functionality of Zap-It changes. Updates will be reflected in this document and in the Chrome Web Store listing.
+
+Contact
+For questions or concerns, please contact me here.
+
 ## License
 
 [MIT License](https://mit-license.org/).
