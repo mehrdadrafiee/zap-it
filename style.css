@@ -1,0 +1,70 @@
+#zap-it-container {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px;
+  height: 50px;
+  margin-bottom: 10px;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+
+#zap-it-container:hover {
+  transform: translateX(-50%) scale(1.05);
+}
+
+#zap-it-input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-top: 1px solid rgba(224, 224, 224, 0.5);
+  padding: 10px 40px 10px 20px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  text-align: left;
+  background-color: rgba(240, 240, 240, 0.8);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: all 0.3s ease-in-out;
+}
+
+#zap-it-input:focus {
+  outline: none;
+}
+
+#zap-it-container:focus-within {
+  width: 400px;
+}
+
+#zap-it-button {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 50%;
+  background-color: #007AFF;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#zap-it-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+#zap-it-button:not(:disabled):hover {
+  background-color: #0056b3;
+  transform: translateY(-50%) scale(1.1);
+}
+
+#zap-it-input::placeholder {
+  color: #999;
+}
