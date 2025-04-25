@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "zap-it",
+  "name": "Zap It",
   "version": "1.0",
   "description": "Zap your thoughts to GPT, anywhere.",
   "permissions": [
